@@ -11,7 +11,7 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_resource_group" "arg" {
+resource azurerm_resource_group rg {
   name     = "${var.prefix}-resource-group"
   location = var.location
 
