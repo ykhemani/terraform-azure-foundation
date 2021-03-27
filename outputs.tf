@@ -23,13 +23,13 @@ output vnet_name {
 }
 
 output subnet0_id {
-  value = azurerm_virtual_network.subnet0.id
+  value = azurerm_subnet.subnet0.id
 }
 
 output subnet0_name {
-  value = azurerm_virtual_network.subnet0.name
+  value = azurerm_subnet.subnet0.name
 }
 
 output subnet0_address_prefixes {
-  value = azurerm_virtual_network.subnet0.address_prefixes
+  value = azurerm_subnet.subnet0.address_prefixes
 }
