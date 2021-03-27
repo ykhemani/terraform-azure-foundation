@@ -1,11 +1,11 @@
 output rg_name {
-  value = azurerm_resource_group.rg.name
+  value = azurerm_resource_group.arg.name
 }
 
 output rg_id {
-  value = azurerm_resource_group.rg.id
+  value = azurerm_resource_group.arg.id
 }
 
 output rg_location {
-  value = azurerm_resource_group.rg.location
+  value = azurerm_resource_group.arg.location
 }
