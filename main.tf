@@ -17,6 +17,17 @@ resource azurerm_resource_group arg {
 
   tags                 = {
     owner              = var.owner
+    se-region          = var.se-region
+    purpose            = var.purpose
+    ttl                = var.ttl
+    terraform          = "true"
+    # hc-internet-facing = var.hc-internet-facing
+    # creator            = var.creator
+    # customer           = var.customer
+    # tfe-workspace      = var.tfe-workspace
+    # lifecycle-action   = var.lifecycle-action
+    # config-as-code     = "terraform"
+    # repo               = var.repo
   }
 }
 
@@ -28,6 +39,17 @@ resource azurerm_virtual_network vnet {
 
   tags                 = {
     owner              = var.owner
+    se-region          = var.se-region
+    purpose            = var.purpose
+    ttl                = var.ttl
+    terraform          = "true"
+#    hc-internet-facing = var.hc-internet-facing
+#    creator            = var.creator
+#    customer           = var.customer
+#    tfe-workspace      = var.tfe-workspace
+#    lifecycle-action   = var.lifecycle-action
+#    config-as-code     = "terraform"
+#    repo               = var.repo
   }
 }
 
