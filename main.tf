@@ -21,13 +21,6 @@ resource azurerm_resource_group arg {
     purpose            = var.purpose
     ttl                = var.ttl
     terraform          = "true"
-    # hc-internet-facing = var.hc-internet-facing
-    # creator            = var.creator
-    # customer           = var.customer
-    # tfe-workspace      = var.tfe-workspace
-    # lifecycle-action   = var.lifecycle-action
-    # config-as-code     = "terraform"
-    # repo               = var.repo
   }
 }
 
@@ -43,13 +36,6 @@ resource azurerm_virtual_network vnet {
     purpose            = var.purpose
     ttl                = var.ttl
     terraform          = "true"
-#    hc-internet-facing = var.hc-internet-facing
-#    creator            = var.creator
-#    customer           = var.customer
-#    tfe-workspace      = var.tfe-workspace
-#    lifecycle-action   = var.lifecycle-action
-#    config-as-code     = "terraform"
-#    repo               = var.repo
   }
 }
 

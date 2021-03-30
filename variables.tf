@@ -20,37 +20,6 @@ variable ttl {
   default = "24"
 }
 
-# variable "hc-internet-facing" {
-#   type    = string
-#   default = "false"
-# }
-
-# variable creator {
-#   type    = string
-# }
-
-# variable customer {
-#   type    = string
-#   default = ""
-# }
-
-# variable tfe-workspace {
-#   type    = string
-# }
-
-# variable lifecycle-action {
-#   type    = string
-# }
-
-# variable config-as-code {
-#   type    = string
-#   default = "terraform"
-# }
-
-# variable repo {
-#   type    = string
-# }
-
 variable location {
   type    = string
   default = "West US"
