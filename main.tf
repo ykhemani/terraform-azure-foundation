@@ -8,7 +8,7 @@ resource "azurerm_resource_group" "arg" {
     se-region = var.se-region
     purpose   = var.purpose
     ttl       = var.ttl
-    foo       = "bar"
+    foo       = "bar
     terraform = "true"
   }
 }
