@@ -4,12 +4,20 @@ resource "azurerm_resource_group" "arg" {
   location = var.location
 
   tags = {
-    owner     = var.owner
-    se-region = var.se-region
-    purpose   = var.purpose
-    ttl       = var.ttl
-    foo       = "bar"
-    terraform = "true"
+    owner              = var.owner
+    se-region          = var.se-region
+    purpose            = var.purpose
+    ttl                = var.ttl
+    customer           = var.customer
+    terraform          = "true"
+    hc-internet-facing = var.hc-internet-facing
+    creator            = var.creator
+    tfe-workspace      = var.tfe-workspace
+    lifecycle-action   = var.lifecycle-action
+    config-as-code     = var.config-as-code
+    repo               = var.repo
+    Name               = "${var.owner}-demo"
+
   }
 }
 
